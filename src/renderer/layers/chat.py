@@ -22,7 +22,7 @@ class LayerChatBase(LayerBase):
             replay_data if replay_data else self._renderer.replay_data
         )
         self._font = self._renderer.resman.load_font(
-            filename="warhelios_bold.ttf", size=12
+            filename="warhelios_bold_multilingual.ttf", size=12
         )
         self._players = self._replay_data.player_info
         self._generated_lines: dict[int, Image.Image] = {}

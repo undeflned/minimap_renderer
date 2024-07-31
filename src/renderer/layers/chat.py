@@ -63,9 +63,9 @@ class LayerChatBase(LayerBase):
         #     return image
 
         self._font = self._renderer.resman.load_font_with_text(
-            message.message, size=12
+            message.message, size=16
         )
-        base = Image.new("RGBA", (560, 17))
+        base = Image.new("RGBA", (560, 26))
         draw = ImageDraw.Draw(base)
         player = self._players[message.player_id]
 

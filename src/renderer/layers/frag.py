@@ -60,7 +60,7 @@ class LayerFragBase(LayerBase):
         if not self._renderer.enable_chat:
             y_pos = image.height - 5
         else:
-            y_pos = 755
+            y_pos = 720
 
         for frag in reversed(self._frags[-5:]):
             is_fragger_building = False

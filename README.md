@@ -1,3 +1,7 @@
+# Archive Notice
+
+This project is no longer maintained. Consider using [wows-toolkit](https://github.com/landaire/wows-toolkit) by landaire!
+
 ## Minimap Renderer
 
 ![Tests](https://github.com/WoWs-Builder-Team/minimap_renderer/actions/workflows/tests.yml/badge.svg)
